@@ -1,0 +1,19 @@
+{
+  "name": "djabuproject",
+  "version": "1.0.0",
+  "description": "basic responsive project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhondyManrique/venta-e-inventario-djabu.git"
+  },
+  "author": "jhondy manrique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhondyManrique/venta-e-inventario-djabu/issues"
+  },
+  "homepage": "https://github.com/jhondyManrique/venta-e-inventario-djabu#readme"
+}
