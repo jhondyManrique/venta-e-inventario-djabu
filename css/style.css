@@ -4,18 +4,27 @@
 
 body {
   margin: 0;
-  max-width: 90vw;
+  max-width: 100vw;
+  height: 100vh;
   background-color: #2c3e50;
   color: rgba(235, 235, 235);
-  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-weight: bold;
 }
 
-header {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 70px;
   padding-bottom: 35px;
+}
+
+img {
+}
+
+section {
+  text-align: center;
 }
 
 form {
@@ -31,18 +40,85 @@ form {
 }
 
 .input_check {
+  display: flex;
   padding: 10px 5px;
+  align-items: center;
+}
+
+div input {
+  border-radius: 40px;
+  padding: 7px;
 }
 
 button {
   margin: 10px;
   padding: 10px;
   border-radius: 40px;
-  border-color: rgba(235, 235, 235);
+  border-style: none;
   color: rgba(235, 235, 235);
   background-color: #27ae60;
 }
 
+button:hover {
+  background-color: #1c7a43;
+}
+
 label {
   padding: 5px;
+}
+
+.footer_container {
+  max-width: 1400px;
+  padding: 20px 20px;
+  margin: auto;
+}
+
+@media (min-width: 720px) {
+  body {
+    color: #2c3e50;
+    font-size: 0.5em;
+  }
+
+  .container {
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 180px;
+  }
+
+  form {
+    background-color: #d9d9d9;
+    padding: 15px 70px 15px 70px;
+  }
+
+  img {
+    width: auto;
+    height: 280px;
+    border-style: solid;
+    border-color: #1c7a43;
+    border-width: 1px;
+  }
+
+  .input_group {
+    padding: 5px;
+  }
+
+  .text_ {
+    height: 5px;
+    width: 125px;
+  }
+
+  button {
+    font-size: smaller;
+    margin: 3px;
+  }
+
+  h2 {
+    margin-top: 10px;
+  }
+
+  .divform {
+    border-style: solid;
+    border-color: #1c7a43;
+    border-width: 2px;
+  }
 }
