@@ -8,36 +8,33 @@
   </head>
   <body>
     <div class="container">
-      <img
-        src="img/Captura de pantalla 2024-09-06 100115 2.png"
-        alt="logo_djabu"
-      />
-      <section id="form_group">
-        <div class="divform">
-          <form action="#">
-            <h2>Bienvenido <br />de vuelta</h2>
-            <div class="input_group">
-              <label for="">USUARIO</label>
-              <input class="text_" type="text" name="" id="" />
-            </div>
-            <div class="input_group">
-              <label for="">CONTRASEÑA</label>
-              <input class="text_" type="contraseña" name="" id="" />
-            </div>
-            <div class="input_check">
-              <input type="checkbox" name="" id="" />
-              <label for="">Recordarme</label>
-            </div>
-            <button type="submit">INICIAR SECION</button>
-            <button>REGISTRARME</button>
-          </form>
-        </div>
-      </section>
-    </div>
-    <footer>
-      <div class="footer_container">
-        <p>&copy;copyright</p>
+      <div class="container_logo">
+        <img src="/img/dbajulogo.jpg" alt="logo djabu" />
       </div>
-    </footer>
+      <div class="container_form">
+        <div class="container_h1">
+          <h1>
+            Bienvenido <br />
+            de vuelta
+          </h1>
+        </div>
+        <form>
+          <label for="username">Usuario</label>
+          <input type="text" id="username" name="username" />
+
+          <label for="password">Contraseña</label>
+          <input type="password" id="password" name="password" />
+
+          <div class="checkbox-container">
+            <input type="checkbox" id="remember" name="remember" />
+            <label for="remember">Recordarme</label>
+          </div>
+
+          <button type="submit">Ingresar</button>
+          <button type="button">Registrarse</button>
+        </form>
+      </div>
+    </div>
+    <footer><h3>&copy copyright</h3></footer>
   </body>
 </html>
