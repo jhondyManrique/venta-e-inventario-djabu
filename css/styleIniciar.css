@@ -67,6 +67,7 @@ button:hover {
 
 footer {
   padding: 15px 0;
+  text-align: center;
 }
 
 @media (min-width: 720px) {
@@ -116,8 +117,5 @@ footer {
     color: rgb(215, 215, 215);
     display: flex;
     justify-content: center;
-  }
-
-  footer h3 {
   }
 }
